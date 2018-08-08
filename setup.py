@@ -20,6 +20,7 @@ setup(
     author_email="wentworth@outlook.com",
     license="3-clause BSD",
     packages=find_packages(),
+    include_pacakge_data=True,
     package_data={
         "": ["LICENSE"],
     },
