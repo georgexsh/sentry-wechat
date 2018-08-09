@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import logging
 import json
-import requests
+import logging
+
 import pkg_resources
+
+import requests
 from django import forms
 from sentry.plugins.bases import NotificationPlugin
 
