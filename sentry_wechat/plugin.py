@@ -53,7 +53,7 @@ class WechatMessage(NotificationPlugin):
 
     def notify_users(self, group, event, fail_silently=False):
         project = event.project
-        team = project.team
+        team = project.teams.first()
 
         agent_id = self.get_option("agent_id", project)
         access_key = self.get_option("access_key", project)
